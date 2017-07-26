@@ -15,10 +15,16 @@ class SampleSpiderMiddleware(object):
         return None
 
     def process_spider_output(response, result, spider):
+        return None
+
+    def process_spider_output(response, result, spider):
         for i in result:
             yield i
 
     def process_spider_exception(response, exception, spider):
+        pass
+
+    def process_start_requests(start_requests, spider):
         pass
 
     def process_start_requests(start_requests, spider):

@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-
 BOT_NAME = 'sample'
 
 SPIDER_MODULES = ['sample.spiders']
