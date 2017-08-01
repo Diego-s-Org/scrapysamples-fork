@@ -3,6 +3,10 @@
 import scrapy
 
 
-class SampleItem(scrapy.Item):
-    pass
+class ProductItem(scrapy.Item):
+    title = scrapy.Field()
+    description = scrapy.Field()
+    sku = scrapy.Field()
+    price = scrapy.Field()
+    image = scrapy.Field()
 
